@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('yaninvitation.index');
+});
+Route::get('/home', function () {
+    return view('yaninvitation.index');
 });
