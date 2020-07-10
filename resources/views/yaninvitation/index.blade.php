@@ -20,12 +20,14 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    </head>
    <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-      {{-- <div id="overlayer"></div>
+      {{-- 
+      <div id="overlayer"></div>
       <div class="loader">
          <div class="spinner-border text-primary" role="status">
             <span class="sr-only">Loading...</span>
          </div>
-      </div> --}}
+      </div>
+      --}}
       <div class="site-wrap">
          <div class="site-mobile-menu site-navbar-target">
             <div class="site-mobile-menu-header">
@@ -104,188 +106,233 @@
                </div>
             </div>
          </div>
-         <div class="site-section" id="services-section" style="background-color: whitesmoke">
+         <div class="site-section" id="services-section" style="background-color: #e5e5e5">
             <div class="container">
                <div class="row ">
                   <div class="col-12 mb-5 position-relative">
                      <h2 class="section-title text-center mb-5">Services</h2>
                   </div>
-					<div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
-					 	<div class="service d-flex h-100">
-					    	<div class="svg-icon">
-					       		<i class="fa fa-globe" style="font-size: 40px"></i>
-					    	</div>
-						    <div class="service-about">
-						       <h3>Website Invitation </h3>
-						       <p>Menghadirkan undangan dengan gaya baru berbentuk website. Kamu akan memiliki alamat domain sendiri yang bisa dicustom sesuka hatimu. Dan jadikan undanganmu abadi selamanya tak lekang oleh zaman.</p>
-						    </div>
-					 	</div>
-					</div>
-
-					<div class="col-md-6 mb-4" data-aos="fade-down" data-aos-delay="100">
-					 	<div class="service d-flex h-100">
-					    	<div class="svg-icon">
-					       		<i class="fa fa-camera" style="font-size: 40px"></i>
-					    	</div>
-						    <div class="service-about">
-						       <h3>Digital Invitation </h3>
-						       <p>Menghadirkan undangan dengan gaya baru berbentuk video animasi berdurasi 30-60 detik. Kamu bisa menguploadnya disosial media kamu tanpa takut undangannya menjadi barang tak berguna dan jadikan undanganmu abadi selamanya tak lekang oleh zaman.</p>
-						    </div>
-					 	</div>
-					</div>
+                  <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                     <div class="service d-flex h-100">
+                        <div class="svg-icon">
+                           <i class="fa fa-globe" style="font-size: 40px"></i>
+                        </div>
+                        <div class="service-about">
+                           <h3><b>Website Invitation</b></h3>
+                           <p>Menghadirkan undangan dengan gaya baru berbentuk website. Kamu akan memiliki alamat domain sendiri yang bisa dicustom sesuka hatimu. Dan jadikan undanganmu abadi selamanya tak lekang oleh zaman.</p>
+                           <br>
+                           <a href="#website-features" class="btn smoothscroll btn-primary" style="background-color:#a8a230;color:white">Kepoin Fitur Website Yuk</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 mb-4" data-aos="fade-down" data-aos-delay="100">
+                     <div class="service d-flex h-100">
+                        <div class="svg-icon">
+                           <i class="fa fa-camera" style="font-size: 40px"></i>
+                        </div>
+                        <div class="service-about">
+                           <h3> <b>Digital Invitation</b>  </h3>
+                           <p>Menghadirkan undangan dengan gaya baru berbentuk video animasi berdurasi 30-60 detik. Kamu bisa menguploadnya disosial media kamu tanpa takut undangannya menjadi barang tak berguna dan jadikan undanganmu abadi selamanya tak lekang oleh zaman.</p>
+                           <a href="#digital-features" class="btn smoothscroll btn-primary" style="background-color:#a8a230;color:white">Kepoin Fitur Digital Invitation Yuk</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="site-section" id="website-features">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12 mb-5 position-relative">
+                     <h2 class="section-title text-center mb-5">Fitur Pada Undangan Website</h2>
+                  </div>
                </div>
                <div class="row">
-               		<div class="col-12 mb-5 position-relative">
-		                 <h2 class="section-title text-center mb-5">Fitur Pada Undangan Website</h2>
-	              	</div>
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-globe" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Alamat Domain Sendiri</h3>
+                           <p>Variasikan alamat website untuk undangan hari spesialmu sesuka hati. Kamu bisa mengkustomisasi dengan nama kamu dan pasanganmu misalnya agar terlihat lebih spesial dan mudah diingat oleh setiap kawan.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-calendar" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Details of Your Special Day</h3>
+                           <p>Layaknya undangan pada umumnya, digital invitationpun menghadirkan detail dari acara spesialmu nanti. Seperti kapan hari spesialmu berlangsung, venue acara spesialmu bahkan sampai ke detail data dirikamu loh</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-clock-o" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Countdown Hari spesial</h3>
+                           <p>Terkadang waktu memang tidak terasa apalagi ketika kita sedang berbahagia. Kamu tidak perlu risau temanmu lupa tentang hari spesialmu. Karena kami akan mengingatkan mereka dengan hitungan mundur menuju hari spesialmu.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-up" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-picture-o" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Slider Foto Tampilan Utama</h3>
+                           <p>Kamu bingung menggunakan foto-foto prewedding atau mungkin foto kenanganmu dengan pasangan yang hanya bisa dipamerkan di sosial mediamu? Tak perlu risau, Yuk gunakan foto terbaikmu dengan pasangan di tampilan utama undangan websitemu. Biarkan dunia tau pasangan paling berbahagia dimuka bumi ini adalah kamu dan pasanganmu.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-up" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-heart" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Love Story</h3>
+                           <p>Beritakan pada dunia kisah cinta terindah yang kamu dan pasangan miliki. Biarkan dunia tau, ada kisah yang lebih romantis dibandingkan romeo dan juliet.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-up" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-map-marker" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Integrasi Dengan Lokasi</h3>
+                           <p>Kamu tak perlu risau, orang-orang spesial yang kamu tunggu tersesat ketika mencari lokasi acara spesialmu nanti. Kami akan pandu mereka dengan mengintegrasikan lokasi dengan google maps ataupun waze yang siap memandu mereka sampai ke tempat perayaan hari spesialmu.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-comments-o" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Friend Wishes</h3>
+                           <p>Biarkan sahabat-sahabat baikmu melangitkan doa dan menuliskannya pada laman website undangan hari spesialmu, Biarkan dunia mengalirkan kata Aaamin yang paling serius untuk kebahagiaanmu dan pasanganmu.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-address-card-o" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Special Guest</h3>
+                           <p>Tenang, kami sudah menyiapkan undangan spesial untuk tamu-tamu spesialmu . Kamu tak perlu risau, karena setiap tamu spesialmu akan mendapatkan halaman undangannya sendiri-sendiri yang membuatmu lebih intim dengan mereka.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-quote-right" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Quote</h3>
+                           <p>Bagikan pada dunia kutipan kalimat yang menggambarkan kamu dan pasangan.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-up" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-book" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Guest Book</h3>
+                           <p>Dengan fitur ini,Kami akan mempermudah kamu dan pasangan melihat siapa saja yang akan hadir di acara spesialmu nanti. Sahabatmu bisa mengisi buku tamu ini dengan menyertakan dengan siapa meraka akan menghadiri hari spesialmu.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-up" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-video-camera" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Video & Photo Gallery</h3>
+                           <p>Jadikan website undanganmu sebagai media menyampaikan jutaan foto maupun video kenangan kamu dan pasanganmu. Buatlah dunia kagum dengan kenangan yang kalian miliki.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-up" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-music" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Memorable Music</h3>
+                           <p>Jangan lupa juga untuk menambahkan musik atau lagu yang menjadi kenangan bagi kamu dan pasanganmu di undangan hari spesialmu. Dunia juga pengen tau loh, selera musik kalian yang keren itu.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         <div class="site-section" id="digital-features" style="background-color: #e5e5e5">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12 mb-5 position-relative">
+                     <h2 class="section-title text-center mb-5">Fitur Pada Digital Invitation</h2>
+                  </div>
                </div>
                <div class="row">
-           			<div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
-	                 	<div class="text-justify service d-flex h-100">
-	                    	<div class="service-about">
-			                    <div class="svg-icon text-center">
-			                       <i class="fa fa-globe" style="font-size: 40px"></i>
-			                    </div>
-	                       		<h3 class="text-center">Alamat Domain Sendiri</h3>
-	                       		<p>Variasikan alamat website untuk undangan hari spesialmu sesuka hati. Kamu bisa mengkustomisasi dengan nama kamu dan pasanganmu misalnya agar terlihat lebih spesial dan mudah diingat oleh setiap kawan.</p>
-	                    	</div>
-	                 	</div>
-	              	</div>
-
-	              	<div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
-	                 	<div class="text-justify service d-flex h-100">
-	                    	<div class="service-about">
-			                    <div class="svg-icon text-center">
-			                       <i class="fa fa-calendar" style="font-size: 40px"></i>
-			                    </div>
-	                       		<h3 class="text-center">Details of Your Special Day</h3>
-	                       		<p>Layaknya undangan pada umumnya, digital invitationpun menghadirkan detail dari acara spesialmu nanti. Seperti kapan hari spesialmu berlangsung, venue acara spesialmu bahkan sampai ke detail data dirikamu loh</p>
-	                    	</div>
-	                 	</div>
-	              	</div>
-	
-	              	<div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
-	                 	<div class="text-justify service d-flex h-100">
-	                    	<div class="service-about">
-			                    <div class="svg-icon text-center">
-			                       <i class="fa fa-clock-o" style="font-size: 40px"></i>
-			                    </div>
-	                       		<h3 class="text-center">Countdown Hari spesial</h3>
-	                       		<p>Terkadang waktu memang tidak terasa apalagi ketika kita sedang berbahagia. Kamu tidak perlu risau temanmu lupa tentang hari spesialmu. Karena kami akan mengingatkan mereka dengan hitungan mundur menuju hari spesialmu.</p>
-	                    	</div>
-	                 	</div>
-	              	</div>
-
-	              	<div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-up" data-aos-delay="100">
-	                 	<div class="text-justify service d-flex h-100">
-	                    	<div class="service-about">
-			                    <div class="svg-icon text-center">
-			                       <i class="fa fa-picture-o" style="font-size: 40px"></i>
-			                    </div>
-	                       		<h3 class="text-center">Slider Foto Tampilan Utama</h3>
-	                       		<p>Kamu bingung menggunakan foto-foto prewedding atau mungkin foto kenanganmu dengan pasangan yang hanya bisa dipamerkan di sosial mediamu? Tak perlu risau, Yuk gunakan foto terbaikmu dengan pasangan di tampilan utama undangan websitemu. Biarkan dunia tau pasangan paling berbahagia dimuka bumi ini adalah kamu dan pasanganmu.</p>
-	                    	</div>
-	                 	</div>
-	              	</div>
-
-	              	<div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-up" data-aos-delay="100">
-	                 	<div class="text-justify service d-flex h-100">
-	                    	<div class="service-about">
-			                    <div class="svg-icon text-center">
-			                       <i class="fa fa-heart" style="font-size: 40px"></i>
-			                    </div>
-	                       		<h3 class="text-center">Love Story</h3>
-	                       		<p>Beritakan pada dunia kisah cinta terindah yang kamu dan pasangan miliki. Biarkan dunia tau, ada kisah yang lebih romantis dibandingkan romeo dan juliet.</p>
-	                    	</div>
-	                 	</div>
-	              	</div>
-
-	              	<div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-up" data-aos-delay="100">
-	                 	<div class="text-justify service d-flex h-100">
-	                    	<div class="service-about">
-			                    <div class="svg-icon text-center">
-			                       <i class="fa fa-map-marker" style="font-size: 40px"></i>
-			                    </div>
-	                       		<h3 class="text-center">Integrasi Dengan Lokasi</h3>
-	                       		<p>Kamu tak perlu risau, orang-orang spesial yang kamu tunggu tersesat ketika mencari lokasi acara spesialmu nanti. Kami akan pandu mereka dengan mengintegrasikan lokasi dengan google maps ataupun waze yang siap memandu mereka sampai ke tempat perayaan hari spesialmu.</p>
-	                    	</div>
-	                 	</div>
-	              	</div>
-
-	              	<div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
-	                 	<div class="text-justify service d-flex h-100">
-	                    	<div class="service-about">
-			                    <div class="svg-icon text-center">
-			                       <i class="fa fa-comments-o" style="font-size: 40px"></i>
-			                    </div>
-	                       		<h3 class="text-center">Friend Wishes</h3>
-	                       		<p>Biarkan sahabat-sahabat baikmu melangitkan doa dan menuliskannya pada laman website undangan hari spesialmu, Biarkan dunia mengalirkan kata Aaamin yang paling serius untuk kebahagiaanmu dan pasanganmu.</p>
-	                    	</div>
-	                 	</div>
-	              	</div>
-
-	              	<div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
-	                 	<div class="text-justify service d-flex h-100">
-	                    	<div class="service-about">
-			                    <div class="svg-icon text-center">
-			                       <i class="fa fa-address-card-o" style="font-size: 40px"></i>
-			                    </div>
-	                       		<h3 class="text-center">Special Guest</h3>
-	                       		<p>Tenang, kami sudah menyiapkan undangan spesial untuk tamu-tamu spesialmu . Kamu tak perlu risau, karena setiap tamu spesialmu akan mendapatkan halaman undangannya sendiri-sendiri yang membuatmu lebih intim dengan mereka.</p>
-	                    	</div>
-	                 	</div>
-	              	</div>
-
-	              	<div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
-	                 	<div class="text-justify service d-flex h-100">
-	                    	<div class="service-about">
-			                    <div class="svg-icon text-center">
-			                       <i class="fa fa-quote-right" style="font-size: 40px"></i>
-			                    </div>
-	                       		<h3 class="text-center">Quote</h3>
-	                       		<p>Bagikan pada dunia kutipan kalimat yang menggambarkan kamu dan pasangan.</p>
-	                    	</div>
-	                 	</div>
-	              	</div>
-
-	              	<div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
-	                 	<div class="text-justify service d-flex h-100">
-	                    	<div class="service-about">
-			                    <div class="svg-icon text-center">
-			                       <i class="fa fa-book" style="font-size: 40px"></i>
-			                    </div>
-	                       		<h3 class="text-center">Guest Book</h3>
-	                       		<p>Dengan fitur ini,Kami akan mempermudah kamu dan pasangan melihat siapa saja yang akan hadir di acara spesialmu nanti. Sahabatmu bisa mengisi buku tamu ini dengan menyertakan dengan siapa meraka akan menghadiri hari spesialmu.</p>
-	                    	</div>
-	                 	</div>
-	              	</div>
-
-	              	<div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
-	                 	<div class="text-justify service d-flex h-100">
-	                    	<div class="service-about">
-			                    <div class="svg-icon text-center">
-			                       <i class="fa fa-video-camera" style="font-size: 40px"></i>
-			                    </div>
-	                       		<h3 class="text-center">Video & Photo Gallery</h3>
-	                       		<p>Jadikan website undanganmu sebagai media menyampaikan jutaan foto maupun video kenangan kamu dan pasanganmu. Buatlah dunia kagum dengan kenangan yang kalian miliki.</p>
-	                    	</div>
-	                 	</div>
-	              	</div>
-
-	              	<div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
-	                 	<div class="text-justify service d-flex h-100">
-	                    	<div class="service-about">
-			                    <div class="svg-icon text-center">
-			                       <i class="fa fa-music" style="font-size: 40px"></i>
-			                    </div>
-	                       		<h3 class="text-center">Memorable Music</h3>
-	                       		<p>Jangan lupa juga untuk menambahkan musik atau lagu yang menjadi kenangan bagi kamu dan pasanganmu di undangan hari spesialmu. Dunia juga pengen tau loh, selera musik kalian yang keren itu.</p>
-	                    	</div>
-	                 	</div>
-	              	</div>
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-video-camera" style="font-size: 40px"></i>
+                              <i class="fa fa-instagram" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Video dengan Design Modern</h3>
+                           <p>Mengundang tak selalu identik dengan surat menyurat. Buat undanganmu lebih modern dan juga tak lekang oleh zaman dengan video digital invitation yang designnya sangat eksklusif dan bisa kamu share di seluruh platform sosial media kamu.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-heart" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Bagikan Kisah Cinta dengan Perantara Kata</h3>
+                           <p>
+                              Abadikan cerita cintamu dengan pasangan dan ceritakan kepada seluruh dunia bahwa betapa beruntungnya kamu memilki dia. 
+                              Dunia perlu tau ada kisah yang tak kalah indah dibandingkan Romeo dan Juliet yang melegenda.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-12 col-lg-4 mt-3" data-aos="fade-down" data-aos-delay="100">
+                     <div class="text-justify service border-black d-flex h-100">
+                        <div class="service-about">
+                           <div class="svg-icon text-center">
+                              <i class="fa fa-qrcode" style="font-size: 40px"></i>
+                           </div>
+                           <h3 class="text-center">Lokasi yang akan selalu mudah dicari</h3>
+                           <p>
+                              Membaca peta lokasi adalah salah satu momok bagi sebagian orang, dengan digitalisasi kamu bisa tampilkan petamu dalam bentuk QRCode. Sisanya ? Biarkan google maps dan waze yang menuntun sahabatmu menuju venue hari spesialmu
+                           </p>
+                        </div>
+                     </div>
+                  </div>
                </div>
-
-               
             </div>
          </div>
          <section class="site-section block__62272" id="projects-section">
@@ -402,7 +449,7 @@
                </div>
             </div>
          </section>
-         <section class="site-section bg-light" id="blog-section">
+         {{-- <section class="site-section" id="blog-section" style="background-color: #e5e5e5">
             <div class="container">
                <div class="row">
                   <div class="col-12 mb-5 position-relative">
@@ -443,8 +490,8 @@
                   </div>
                </div>
             </div>
-         </section>
-         <section class="site-section" id="contact-section">
+         </section> --}}
+         <section class="site-section" id="contact-section" >
             <div class="container">
                <div class="row">
                   <div class="col-12 mb-5 position-relative">
@@ -479,32 +526,36 @@
                         </div>
                         <div class="row">
                            <div class="col-md-6">
-                              <input type="submit" class="btn btn-primary" value="Send Message">
+                              <input type="submit" class="btn btn-primary" value="Send Message" style="background-color: #a8a230;color:white">
                            </div>
                         </div>
                      </form>
                   </div>
                   <div class="col-lg-5 col-md-5 col-sm-12 mt-4">
-                     <h3>London</h3>
+                     <h3>Bogor</h3>
                      <ul class="list-unstyled mb-5">
                         <li class="mb-3">
                            <strong class="d-block mb-1">Address</strong>
-                           <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
+                           <span>Jalan Skip Nomor 1-5, Gang Paspamres Kelurahan Lawang Gintung, Bogor Selatan, Kota Bogor.</span>
                         </li>
                         <li class="mb-3">
                            <strong class="d-block mb-1">Phone</strong>
-                           <span>+1 232 3235 324</span>
+                           <span>+62 822 5813 1817</span>
                         </li>
                         <li class="mb-3">
                            <strong class="d-block mb-1">Email</strong>
-                           <span><a href="https://colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5821372d2a3d35393134183c3735393136763b3735">[email&#160;protected]</a></span>
+                           <span>
+                              <a href="mailto:projectpandawa165@gmail.com" style="color: #a8a230;font-weight: 900">
+                                 yaninvitation@gmail.com
+                              </a>
+                           </span>
                         </li>
                      </ul>
-                     <h3>New York</h3>
+                     {{-- <h3>New York</h3>
                      <ul class="list-unstyled">
                         <li class="mb-3">
                            <strong class="d-block mb-1">Address</strong>
-                           <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
+                           <span>Jalan Skip Nomor 1-5, Gang Paspamres Kelurahan Lawang Gintung, Bogor Selatan, Kota Bogor.</span>
                         </li>
                         <li class="mb-3">
                            <strong class="d-block mb-1">Phone</strong>
@@ -514,14 +565,14 @@
                            <strong class="d-block mb-1">Email</strong>
                            <span><a href="https://colorlib.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="760f190304131b171f1a3612191b171f185815191b">[email&#160;protected]</a></span>
                         </li>
-                     </ul>
+                     </ul> --}}
                   </div>
                </div>
             </div>
          </section>
-         <footer class="site-section bg-light footer">
+         <footer class=" footer" style="background-color:#e5e5e5; padding:2em">
             <div class="container">
-               <div class="row mb-5">
+               {{-- <div class="row mb-5">
                   <div class="col-md-3">
                      <h3 class="footer-title">Services</h3>
                      <p><span class="d-inline-block d-md-block">203 Fake St. Mountain View,</span> San Francisco, California, USA</p>
@@ -562,12 +613,20 @@
                      <a href="#" class="social-circle m-2"><span class="icon-dribbble"></span></a>
                      <a href="#" class="social-circle m-2"><span class="icon-linkedin"></span></a>
                   </div>
-               </div>
-               <div class="row">
-                  <div class="col-12 text-center">
+               </div> --}}
+               <div class="row" >
+                  <div class="col-9 ">
                      <p>
-                        Copyright &copy; All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+                        Copyright &copy; Yaninvitation All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a> | Customize By <a href="">Pandawatech</a> 
                      </p>
+                  </div>
+                  <div class="col-md-3">
+                     <h3 class="footer-title">Find Us On :</h3>
+                     <a href="#" class="social-circle m-2"><span class="icon-twitter"></span></a>
+                     <a href="#" class="social-circle m-2"><span class="icon-facebook"></span></a>
+                     <a href="#" class="social-circle m-2"><span class="icon-instagram"></span></a>
+                     <a href="#" class="social-circle m-2"><span class="icon-dribbble"></span></a>
+                     <a href="#" class="social-circle m-2"><span class="icon-linkedin"></span></a>
                   </div>
                </div>
             </div>

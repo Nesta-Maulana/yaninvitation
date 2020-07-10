@@ -164,13 +164,15 @@ jQuery(document).ready(function($) {
 	    center: false,
 	    items: 1,
 	    loop: true,
-			stagePadding: 0,
+		stagePadding: 0,
 	    margin: 0,
 	    smartSpeed: 1000,
 	    autoplay: true,
 	    pauseOnHover: false,
 	    autoHeight: true,
-	    nav: false,
+		nav: false,
+		pagination:false,
+		dots:false,	
 	    navText: ['<span class="icon-keyboard_arrow_left">', '<span class="icon-keyboard_arrow_right">']
 	  });
 
